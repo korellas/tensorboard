@@ -8,8 +8,8 @@ licenses(["notice"])  # Apache 2.0
 tf_web_library(
     name = "vz_line_chart2",
     srcs = [
-        "line-chart.ts",
         "line-chart-exporter.ts",
+        "line-chart.ts",        
         "linear-scale.ts",
         "log-scale.ts",
         "panZoomDragLayer.html",
